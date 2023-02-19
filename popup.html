@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Discord</title>
+    <style>
+        body {
+            background-color: #28243d;
+            font-size: 16px;
+            width: 400px;
+            height: 200px;
+            color: rgba(231, 227, 252, 0.87);
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #openBtn {
+            margin-top: 8px;
+            background-color: #9155fd;
+            border: none;
+        }
+
+        input {
+            min-width: 200px;
+            background-color: rgba(231, 227, 252, 0.03);
+            padding: 0 23.1111111111px;
+            color: rgba(231, 227, 252, 0.87);
+            min-height: 48px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        button {
+            border-radius: 4px;
+            height: 38px !important;
+            padding: 0 23.1111111111px;
+            color: rgba(231, 227, 252, 0.87);
+            box-shadow: 0 4px 8px -4px rgb(19 17 32 / 42%) !important;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h3>Login Discord</h3>
+    <input id="token" placeholder="Enter token"/>
+    <input id="proxy" placeholder="Enter proxy"/>
+    <button id="openBtn">Login</button>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
